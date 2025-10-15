@@ -1,0 +1,25 @@
+# Program to display data types in Python
+
+# Different types of data
+a = 10                     # int
+b = 3.14                   # float
+c = "Hello, World!"        # string
+d = True                   # boolean
+e = 2 + 3j                 # complex
+f = [1, 2, 3, 4]           # list
+g = (5, 6, 7, 8)           # tuple
+h = {"name": "Raghu", "age": 20}   # dictionary
+i = {10, 20, 30, 40}       # set
+j = None                   # NoneType
+
+# Display all values with their data types
+print("a =", a, "→", type(a))
+print("b =", b, "→", type(b))
+print("c =", c, "→", type(c))
+print("d =", d, "→", type(d))
+print("e =", e, "→", type(e))
+print("f =", f, "→", type(f))
+print("g =", g, "→", type(g))
+print("h =", h, "→", type(h))
+print("i =", i, "→", type(i))
+print("j =", j, "→", type(j))
