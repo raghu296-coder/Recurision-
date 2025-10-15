@@ -1,0 +1,8 @@
+def countdown(n):
+    if n == 0:  # base case
+        print("Time's up!")
+    else:
+        print(n)
+        countdown(n - 1)  # recursive call
+
+countdown(5)
